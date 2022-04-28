@@ -31,6 +31,7 @@ body{
     overflow:hidden;
     color:var(--ghost-white);
     height:100vh;
+
 }
 
 .flex{
@@ -87,4 +88,14 @@ body{
 .btn-reset:hover{
     background-color:var(--hover-red);
     transition:0.8s ease;
+}
+
+footer{
+    align-items: flex-end;
+    margin-top:15rem;
+
+}
+
+footer p{
+    font-size:0.8rem;
 }
